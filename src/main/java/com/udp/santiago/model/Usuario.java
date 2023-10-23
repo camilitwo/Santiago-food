@@ -24,6 +24,9 @@ public class Usuario {
     @Column(name = "password")
     private String password;
 
+    @Column(name = "user_type")
+    private int tipo;
+
     // Constructor, getters y setters
 }
 

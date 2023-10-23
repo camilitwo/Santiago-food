@@ -10,6 +10,7 @@ public class UsuarioDTO {
     private String usuario;
     private String email;
     private String password;
+    private int tipo;
 
     public Usuario toEntity() {
         Usuario usuario = new Usuario();
@@ -17,6 +18,7 @@ public class UsuarioDTO {
         usuario.setUsuario(this.usuario);
         usuario.setEmail(this.email);
         usuario.setPassword(this.password);
+        usuario.setTipo(this.tipo);
         return usuario;
     }
 }
