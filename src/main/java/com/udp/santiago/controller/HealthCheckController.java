@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HealthCheckController {
         @RequestMapping(value = "/healthcheck", method = RequestMethod.GET)
         public String healthcheck(){
-            return "OK";
+            return "Prueba algo";
         }
 }
